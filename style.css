@@ -7,14 +7,12 @@
 body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
-
   margin: auto;
 }
 
 /* Navigation */
 nav {
   background: #75a34b;
-
   padding: 0.8rem 1.5rem 0 1.5rem;
   display: flex;
   justify-content: space-between;
