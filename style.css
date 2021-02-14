@@ -151,18 +151,21 @@ nav li:hover {
 
 /* Cards */
 .cards-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
   margin: 1.5rem;
 }
 
 .card {
+  margin: auto;
   background: rgb(243, 243, 243);
   border-radius: 8px;
 }
 
 .card-inside {
+  width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: center;
